@@ -1,0 +1,38 @@
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 0.95rem;
+  transition: background-color 0.15s ease;
+}
+
+.btn.primary {
+  background-color: hsl(5, 83%, 57%);
+  color: white;
+}
+
+.btn.primary:hover {
+  background-color: hsl(220, 40%, 28%) ;
+}
+
+.btn.secondary {
+  background-color: hsl(5, 83%, 57%);
+  color: white;
+}
+
+.btn.secondary:hover {
+  background-color: hsl(220, 40%, 28%);
+}
+
+.btn:disabled,
+.btn[aria-disabled="true"] {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

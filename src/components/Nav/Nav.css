@@ -1,0 +1,9 @@
+.nav {
+  background-color: hsl(220, 49%, 21%);
+  border-bottom: 1px solid hsl(219, 34%, 35%);
+}
+
+.nav nav ul {
+  padding: 0;
+  margin: 0;
+}

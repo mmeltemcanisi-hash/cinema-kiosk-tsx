@@ -1,0 +1,44 @@
+[
+  {
+    "id": "scream 7",
+    "title": "Scream 7",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Scream_7_%28poster%29.jpg/250px-Scream_7_%28poster%29.jpg",
+    "genre": "Thriller, Horror",
+    "duration": 114,
+    "synopsis": "Een nieuwe Ghostface-terrorist duikt op in Sidney Prescotts rustige woonplaats en richt zich op haar dochter.",
+    "acteurs": ["Neve Campbell", "Courteney Cox", "Isabel May", "Jasmin Savoy Brown", "Mason Gooding"],
+    "regisseur": ["Kevin Williamson"],
+    "versies": ["Engels gesproken, Nederlands ondertiteld"],
+    "uren": ["14:30", "19:30", "21:30"],
+    "formaten": ["2D", "4DX 2D"],
+    "basePrice": 11.95
+  },
+  {
+    "id": "Zootropolis 2",
+    "title": "Zootropolis 2",
+    "poster": "https://images.pathe-thuis.nl/40528_450x640.jpg",
+    "genre": "Komedie, Avontuur",
+    "duration": 108,
+    "synopsis": "Zootropolis is een levendige stad waar dieren leven en werken. Een jonge hondje wordt de eerste detective van de stad en ontdekt een geheime conspiratie.",
+    "acteurs": ["Ginnifer Goodwin", "Jason Bateman", "Idris Elba", "Jenny Slate", "Shakira"],
+    "regisseur": ["Byron Howard", "Rich Moore", "Jared Bush"],
+    "versies": ["Nederlands gesproken", "Engels gesproken, Nederlands ondertiteld"],
+    "uren": ["11:00", "14:00", "16:30"],
+    "formaten": ["2D", "Smart 3D"],
+    "basePrice": 9.95
+  },
+  {
+    "id": "Marsupilami",
+    "title": "Marsupilami",
+    "poster": "https://www.moviemeter.nl/images/cover/1176000/1176277.jpg?cb=1766756791",
+    "genre": "Avontuur, Komedie, Familie",
+    "duration": 105,
+    "synopsis": "De avontuurlijke Marsupilami belandt samen met zijn vrienden in een spannend avontuur vol actie, humor en geheimen uit de jungle.",
+    "acteurs": ["Jamel Debbouze", "Alain Chabat", "Fred Testot", "Lambert Wilson", "Géraldine Nakache"],
+    "regisseur": ["Alain Chabat"],
+    "versies": ["Frans gesproken, Nederlands ondertiteld", "Nederlands gesproken"],
+    "uren": ["11:30", "14:15", "17:00"],
+    "formaten": ["2D"],
+    "basePrice": 9.95
+  }
+]

@@ -1,0 +1,39 @@
+:root {
+  --pico-primary: #e74c3c;
+  --pico-primary-hover: #c0392b;
+  --pico-primary-background: #e74c3c;
+  --pico-primary-border: #e74c3c;
+  --pico-primary-inverse: #ffffff;
+}
+
+main,
+hr {
+  margin-block: 2rem;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, hsl(204, 40%, 60%), hsl(204, 40%, 30%));
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: hsl(0, 0%, 100%);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+article {
+  background-color: transparent
+}

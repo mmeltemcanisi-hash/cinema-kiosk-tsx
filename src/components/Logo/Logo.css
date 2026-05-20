@@ -1,0 +1,51 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.logo__star {
+  color: hsl(6, 78%, 57%);
+  font-size: 1.5rem;
+}
+
+.logo__brand {
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  color: hsl(6, 78%, 57%);
+}
+
+.logo--big .logo__star {
+  font-size: 3.5rem;
+}
+
+.logo--big .logo__brand {
+  font-size: 2.5rem;
+}
+
+.logo__image {
+  height: 2rem;
+  width: auto;
+  display: block;
+}
+
+.welkom {
+  font-size: 1.25rem;
+  color: hsl(0, 0%, 0%);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.logo--big .logo__image {
+  height: 4rem;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+

@@ -1,0 +1,98 @@
+.zitplaatsen__screen {
+  background: linear-gradient(180deg, rgba(231, 76, 60, 0.4) 0%, transparent 100%);
+  color: white;
+  text-align: center;
+  padding: 0.4rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.5rem;
+  border-bottom: 2px solid #e74c3c;
+  margin: 1rem 4rem;
+  border-radius: 4px 4px 0 0;
+}
+
+.zitplaatsen__map {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.zitplaatsen__row {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.zitplaatsen__row-label {
+  font-size: 0.7rem;
+  color: #b0bacb;
+  text-align: center;
+}
+
+.zitplaatsen__row-seats {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0.2rem;
+}
+
+.zitplaatsen__legend {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.75rem;
+  color: #b0bacb;
+  margin: 1rem 0;
+}
+
+.zitplaatsen__dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 0.25rem;
+  vertical-align: middle;
+}
+
+.zitplaatsen__dot--available { background-color: #e8ebf0; }
+.zitplaatsen__dot--selected  { background-color: #e74c3c; }
+.zitplaatsen__dot--taken     { background-color: #b0bacb; }
+
+.zitplaatsen__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.zitplaatsen__info-row {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e8ebf0;
+  color: #1b2c4f;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.zitplaatsen__info-row--prijs {
+  background-color: #e74c3c;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.zitplaatsen__actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  max-width: 480px;
+  margin: 1rem auto;
+  padding: 0;
+  background: none;
+}

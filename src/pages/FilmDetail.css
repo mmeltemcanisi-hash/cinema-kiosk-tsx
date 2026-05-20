@@ -1,0 +1,60 @@
+.film-detail__poster {
+  width: 130px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.film-detail__label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: white;
+  margin: 0.75rem 0 0.15rem 0;
+}
+
+.film-detail__value {
+  font-size: 0.85rem;
+  color: #b0bacb;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.film-detail__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.film-detail__chip {
+  background-color: #f5f5f5;
+  color: #1b2c4f;
+  border: 2px solid transparent;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s ease;
+}
+
+.film-detail__chip:hover {
+  background-color: white;
+}
+
+.film-detail__chip--active {
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(6, 78%, 57%);
+  color: hsl(6, 78%, 57%);
+}
+
+.film-detail__actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  padding: 0;
+  background: none;
+}

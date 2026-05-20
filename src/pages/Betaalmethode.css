@@ -1,0 +1,51 @@
+.betaalmethode__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.betaalmethode__option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: hsl(218, 21%, 93%);
+  color: hsl(220, 49%, 21%);
+  border: 3px solid transparent;
+  border-radius: 0.5rem;
+  padding: 1.25rem 0.5rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.betaalmethode__option:hover {
+  background-color: white;
+}
+
+.betaalmethode__option--active {
+  border-color: hsl(6, 78%, 57%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.betaalmethode__icon {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.betaalmethode__name {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.betaalmethode__actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0;
+  background: none;
+}
