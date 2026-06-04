@@ -10,12 +10,13 @@
   font-size: 0.85rem;
   font-weight: 700;
   color: white;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
   margin: 0.75rem 0 0.15rem 0;
 }
 
 .film-detail__value {
   font-size: 0.85rem;
-  color: #b0bacb;
+  color: hsl(218, 21%, 74%);
   margin: 0;
   line-height: 1.4;
 }
@@ -28,15 +29,15 @@
 }
 
 .film-detail__chip {
-  background-color: #f5f5f5;
-  color: #1b2c4f;
+  background-color: hsl(0, 0%, 96%);
+  color: hsl(220, 49%, 21%);
   border: 2px solid transparent;
   border-radius: 0.25rem;
   padding: 0.5rem;
   font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
-  font-family: inherit;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
   transition: all 0.15s ease;
 }
 

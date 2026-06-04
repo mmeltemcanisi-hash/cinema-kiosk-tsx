@@ -1,9 +1,21 @@
+
 .logo {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
   text-decoration: none;
   color: white;
+}
+
+.logo__img {
+  height: 4rem;
+  width: auto;
+  margin: 0;
+  filter: brightness(0) invert(1); 
+}
+
+.logo--big .logo__img {
+  height: 8rem;
 }
 
 .logo__star {
@@ -29,12 +41,13 @@
   height: 2rem;
   width: auto;
   display: block;
+  margin: 0;
 }
 
 .welkom {
   font-size: 1.25rem;
-  color: hsl(0, 0%, 0%);
-  margin-bottom: 0.5rem;
+  color: hsl(0, 0%, 98%);
+  margin-bottom: 0.1rem;
   font-weight: 600;
 }
 
@@ -47,5 +60,12 @@
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
+}
+.logo--white .logo__star {
+  color: white;
+}
+
+.logo--white .logo__brand {
+  color: white;
 }
 

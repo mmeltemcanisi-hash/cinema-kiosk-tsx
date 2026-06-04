@@ -7,9 +7,9 @@ const Klaar = () => {
       <h1>Gelukt!</h1>
       <p>Bedankt voor je aankoop. Veel kijkplezier!</p>
 
-      <Link role="button" to="/films" className="btn primary">
-        Terug naar films
-      </Link>
+      <Link role="button" to="/" className="btn primary">
+  Terug naar home
+</Link>
     </article>
   );
 };

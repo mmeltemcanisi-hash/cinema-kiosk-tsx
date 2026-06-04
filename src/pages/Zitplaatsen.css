@@ -1,11 +1,11 @@
 .zitplaatsen__screen {
-  background: linear-gradient(180deg, rgba(231, 76, 60, 0.4) 0%, transparent 100%);
+  background: linear-gradient(180deg, hsla(6, 78%, 57%, 0.4) 0%, transparent 100%);
   color: white;
   text-align: center;
   padding: 0.4rem;
   font-size: 0.75rem;
   letter-spacing: 0.5rem;
-  border-bottom: 2px solid #e74c3c;
+  border-bottom: 2px solid hsl(6, 78%, 57%);
   margin: 1rem 4rem;
   border-radius: 4px 4px 0 0;
 }
@@ -27,7 +27,7 @@
 
 .zitplaatsen__row-label {
   font-size: 0.7rem;
-  color: #b0bacb;
+  color: hsl(218, 21%, 74%);
   text-align: center;
 }
 
@@ -42,7 +42,7 @@
   justify-content: center;
   gap: 1rem;
   font-size: 0.75rem;
-  color: #b0bacb;
+  color: hsl(218, 21%, 74%);
   margin: 1rem 0;
 }
 
@@ -55,9 +55,9 @@
   vertical-align: middle;
 }
 
-.zitplaatsen__dot--available { background-color: #e8ebf0; }
+.zitplaatsen__dot--available { background-color: hsl(218, 21%, 93%); }
 .zitplaatsen__dot--selected  { background-color: #e74c3c; }
-.zitplaatsen__dot--taken     { background-color: #b0bacb; }
+.zitplaatsen__dot--taken     { background-color: hsl(218, 21%, 74%); }
 
 .zitplaatsen__info {
   display: flex;
@@ -72,8 +72,8 @@
 .zitplaatsen__info-row {
   display: flex;
   justify-content: space-between;
-  background-color: #e8ebf0;
-  color: #1b2c4f;
+  background-color: hsl(218, 21%, 93%);
+  color: hsl(220, 49%, 21%);
   padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
   font-size: 0.85rem;
@@ -81,7 +81,7 @@
 }
 
 .zitplaatsen__info-row--prijs {
-  background-color: #e74c3c;
+  background-color: hsl(6, 78%, 57%);
   color: white;
   font-weight: 700;
   font-size: 1rem;

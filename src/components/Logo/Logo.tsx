@@ -6,7 +6,7 @@ import "./Logo.css";
 const Logo = () => {
   return (
     <Link to={ROUTES.HOME} className="logo">
-      <img src={logo} alt="Kinepolis" className="logo__image" />
+      <img src={logo} alt="KINEPOLIS" className="logo__img" />
     </Link>
   );
 };
