@@ -1,6 +1,5 @@
 import { Link } from "react-router";
 import { ROUTES } from "../constants";
-import logo from "../assets/logo.png";
 import "../components/Logo/Logo.css";
 import Logo from "../components/Logo/Logo";
 
